@@ -14,6 +14,7 @@ let h1 = document.createElement("H1")
         let div =document.createElement("Div")
         div.setAttribute("class","cards")
         div.setAttribute("id","card_"+i)
+        div.setAttribute("style","left:"+40*i+"px; rotation:4px;")
         div.innerHTML="<h2>here</H2>"
 
         main.appendChild(div)
