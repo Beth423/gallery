@@ -1,15 +1,20 @@
+@font-face{
+    font-family:"Thesignature";
+    src:url("/assets/Thesignature.ttf");
+}
 body {
     margin:auto
 }
 .cards{
     background-color: rgb(227, 227, 227);
-    width: 15rem;
-    height: 20rem;
+    width: 20rem;
+    height: 25rem;
     position:fixed;
     top:25%;
     transform:rotate(1deg);
     transition: 0.25s;
     padding: 1rem;
+    border-radius: .25rem;
 
 }
 .cards:hover{
@@ -18,9 +23,13 @@ body {
     
 }
 .img{
+    box-shadow:  1px 1px 5px rgb(53, 53, 53) ;
+
     height: 75%;
     width: 100%;
+    border-radius:0.2rem;
 }
 .captions{
-    src:url("/assets/Autography.otf");
+    font-family:"Thesignature";
+    color: rgb(9, 0, 49);
 }
