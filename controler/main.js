@@ -18,7 +18,7 @@ let h1 = document.createElement("H1")
         div.setAttribute("id","card_"+i)
         div.setAttribute("style","transform:rotate("+i*5+"deg); left:"+10 *i/4+"rem;")
         
-        img.setAttribute("src","/assets/"+imgLinks[i]+"")
+        img.setAttribute("src","/assets/images/"+imgLinks[i]+"")
         img.setAttribute("class","img")
 
         captions.innerHTML="<h1 class ='captions'>"+"here"+"</h1>";
