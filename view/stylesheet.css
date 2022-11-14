@@ -2,18 +2,25 @@ body {
     margin:auto
 }
 .cards{
-    background-color: rgba(36, 0, 168, 0.356);
+    background-color: rgb(227, 227, 227);
     width: 15rem;
     height: 20rem;
     position:fixed;
-    left: 30%;
     top:25%;
-    transform:rotate(2deg);
+    transform:rotate(1deg);
     transition: 0.25s;
     padding: 1rem;
 
 }
 .cards:hover{
     transition: 0.25s;
-    background-color: rgb(43, 38, 88);
+    background-color: rgb(174, 174, 174);
+    
+}
+.img{
+    height: 75%;
+    width: 100%;
+}
+.captions{
+    src:url("/assets/Autography.otf");
 }
