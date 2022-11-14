@@ -2,7 +2,18 @@ body {
     margin:auto
 }
 .cards{
-    background-color: aquamarine;
-    width: 5rem;
-    height: 10rem;
+    background-color: rgba(36, 0, 168, 0.356);
+    width: 15rem;
+    height: 20rem;
+    position:fixed;
+    left: 30%;
+    top:25%;
+    transform:rotate(2deg);
+    transition: 0.25s;
+    padding: 1rem;
+
+}
+.cards:hover{
+    transition: 0.25s;
+    background-color: rgb(43, 38, 88);
 }
