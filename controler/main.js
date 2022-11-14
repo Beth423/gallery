@@ -27,3 +27,6 @@ let h1 = document.createElement("H1")
         main.appendChild(div)
     }
  }
+function cardsInfo(){
+    
+}
