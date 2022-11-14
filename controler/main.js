@@ -9,11 +9,12 @@ let h1 = document.createElement("H1")
     console.log("here")
 
 
-    for (i=0;i<=3 ;i++){
+    for (i=0;i<=2 ;i++){
         let main =document.getElementById("main")
         let div =document.createElement("Div")
         div.setAttribute("class","cards")
         div.setAttribute("id","card_"+i)
+        div.setAttribute("style","transform:rotate("+i*10+"deg);")
         div.innerHTML="<h2>here</H2>"
 
         main.appendChild(div)
