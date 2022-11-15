@@ -7,10 +7,12 @@ let h1 = document.createElement("H1")
  //𝕙𝕥𝕥𝕡://𝟙𝟚𝟟.𝟘.𝟘.𝟙:𝟝𝟝𝟘𝟘/𝕚𝕟𝕕𝕖𝕩.𝕙𝕥𝕞𝕝
  function Cards(){
     console.log("here")
-
+    let numberOfCards=3
+    let main=document.getElementById("main")
+    let section = document.createElement("section")
+    main.appendChild(section)
     let imgLinks=["pillers.jpg","Carina-Nebula.webp","heic0515a.jpg","Trifid_Nebula_by_Deddy_Dayag.jpg"]
-    for (i=0;i<=3 ;i++){
-        let main=document.getElementById("main")
+    for (i=0;i<=numberOfCards ;i++){
         let div=document.createElement("Div")
         let img=document.createElement("img")
         let captions= document.createElement("div")
@@ -24,6 +26,17 @@ let h1 = document.createElement("H1")
         captions.innerHTML="<p class='captions'>"+"    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur = "+"</p>";
         div.appendChild(img)
         div.appendChild(captions)
-        main.appendChild(div)
+        section.appendChild(div)
+    }
+    for(i=0;i<=numberOfCards;i++){
+        let section = document.createElement("section")
+        section.setAttribute("class","section" )
+        section.setAttribute("id","dec"+i)
+        main.appendChild(section)
+    }
+    let lastKnownScrollPosition = 0;
+    let ticking = false;
+    function sectionOnscrooll(){
+
     }
  }
