@@ -3,7 +3,8 @@
     src:url("/assets/Thesignature.ttf");
 }
 body {
-    margin:auto
+    margin:auto;
+    height: 50rem;
 }
 .cards{
     background-color: rgb(227, 227, 227);
