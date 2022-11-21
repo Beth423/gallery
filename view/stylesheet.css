@@ -4,19 +4,21 @@
 }
 body {
     margin:auto;
-    height: 50rem;
+    height: 100rem;
+    background-color: aqua;
+}
+body:vertical{
+    background-color: antiquewhite;
 }
 .cards{
     background-color: rgb(227, 227, 227);
     width: 18rem;
     height: 25rem;
-    position:fixed;
-    top:25%;
-    transform:rotate(1deg);
+    position:absolute;
+    top:4rem;
     transition: 0.25s;
     padding: 1rem;
     border-radius: .25rem;
-
 }
 .cards:hover{
     transition: 0.25s;
@@ -33,4 +35,11 @@ body {
 .captions{
     font-family:"Thesignature";
     color: rgb(9, 0, 49);
+}
+.contaner1{
+    
+    background-color: bisque;
+    width:25rem;
+    height:10rem;
+    margin: auto;
 }
